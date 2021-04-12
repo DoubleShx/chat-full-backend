@@ -1,0 +1,142 @@
+{
+"dialogItems": [
+    {"name": "doubled", "lastmessage":"lorem", "isOnline": true, "date": "Wed Apr 01 2021 13:05:04", "id":1},
+    {"name": "tripled", "lastmessage":"ipsum", "date": "Wed Apr 02 2021 13:05:04", "id":2},
+    {"name": "doubled", "lastmessage":"dolor", "isOnline": true, "date": "Wed Apr 03 2020 13:05:04", "id":3},
+    {"name": "doubled", "lastmessage":"dollar", "isOnline": true, "date": "Wed Apr 04 2020 13:05:04", "id":4},
+    {"name": "doubled", "lastmessage":"box", "isOnline": true, "date": "Wed Apr 05 2020 13:05:04", "id":5},
+    {"name": "doubled", "lastmessage":"picture", "isOnline": true, "date": "Wed Apr 06 2020 13:05:04", "id":7},
+    {"name": "doubled", "lastmessage":"spa", "isOnline": true, "date": "Wed Apr 07 2020 13:05:04", "id":8},
+    {"name": "doubled", "lastmessage":"wjdgfgo dasjfi", "isOnline": true, "date": "Wed Apr 08 2020 13:05:04", "id":9},
+    {"name": "doubled", "lastmessage":"wwa", "isOnline": true, "date": "Wed Apr 09 2020 13:05:04", "id":10},
+    {"name": "tripled", "lastmessage":"wwgas", "isOnline": true, "date": "Wed Apr 10 2020 13:05:04", "id":11}
+],
+"messages" : [
+    {"text": "Orci varius natoque penatibus et magnis", "box": "sendbox", "avatar":"Udas", "date": "Sun Mar 28 2021 14:01:16", "checked": true, 
+        "id": 1,
+        "attachments": [
+                {
+                    "fileName": "image1.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=4&nature,water",
+                    "id": 1
+                },
+                {
+                    "fileName": "image2.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=5&nature,water",
+                    "id": 2
+                },
+                {
+                    "fileName": "image3.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=6&nature,water",
+                    "id": 3
+                }
+            ]
+        
+    },
+    {"text": "Orci412 variu1234s natoq412ue penati43bus 5et magni5s", "box": "inbox", "avatar":"Udas", "date": "Sun Mar 28 2021 14:01:16", "checked": true,
+        "id":1,
+        "attachments": [
+                {
+                    "fileName": "image4.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=4&nature,water",
+                    "id": 4
+                },
+                {
+                    "fileName": "image5.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=5&nature,water",
+                    "id": 5
+                },
+                {
+                    "fileName": "image6.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=6&nature,water",
+                    "id": 6
+                }
+            ]
+        
+    },
+    {"text": "Orci varius natoque penatibus et magnis", "box": "sendbox", "avatar":"Udas", "date": "Sun Mar 28 2021 14:01:16", "checked": true, 
+        "id": 3,
+        "attachments": [
+                {
+                    "fileName": "image1.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=4&nature,water",
+                    "id": 1
+                },
+                {
+                    "fileName": "image2.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=5&nature,water",
+                    "id": 2
+                },
+                {
+                    "fileName": "image3.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=6&nature,water",
+                    "id": 3
+                }
+            ]
+        
+    },
+    {"text": "Orci412 variu1234s natoq412ue penati43bus 5et magni5s", "box": "inbox", "avatar":"Udas", "date": "Sun Mar 28 2021 14:01:16", "checked": true,
+        "id":4,
+        "attachments": [
+                {
+                    "fileName": "image4.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=4&nature,water",
+                    "id": 4
+                },
+                {
+                    "fileName": "image5.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=5&nature,water",
+                    "id": 5
+                },
+                {
+                    "fileName": "image6.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=6&nature,water",
+                    "id": 6
+                }
+            ]
+        
+    },
+    {"text": "Orci varius natoque penatibus et magnis", "box": "sendbox", "avatar":"Udas", "date": "Sun Mar 28 2021 14:01:16", "checked": true, 
+        "id": 1,
+        "attachments": [
+                {
+                    "fileName": "image1.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=4&nature,water",
+                    "id": 1
+                },
+                {
+                    "fileName": "image2.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=5&nature,water",
+                    "id": 2
+                },
+                {
+                    "fileName": "image3.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=6&nature,water",
+                    "id": 3
+                }
+            ]
+        
+    },
+    {"text": "Orci412 variu1234s natoq412ue penati43bus 5et magni5s", "box": "inbox", "avatar":"Udas", "date": "Sun Mar 28 2021 14:01:16", "checked": true,
+        "id":2,
+        "attachments": [
+                {
+                    "fileName": "image4.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=4&nature,water",
+                    "id": 4
+                },
+                {
+                    "fileName": "image5.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=5&nature,water",
+                    "id": 5
+                },
+                {
+                    "fileName": "image6.jpg",
+                    "url": "https://source.unsplash.com/100x100/?random=6&nature,water",
+                    "id": 6
+                }
+            ]
+        
+    }
+]
+}

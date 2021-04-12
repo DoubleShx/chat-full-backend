@@ -9,12 +9,25 @@ const app = express();
 app.use(bodyParser.json())
 
 
-mongoose.connect("mongodb://localhost:27017/chat", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb://localhost:27017/chat", { 
+    useNewUrlParser: true, 
+    useCreateIndex: true,
+    useUnifiedTopology: true 
+});
 
-app.post("/", function(req:any, res:any) {
-    console.log(req.body)
-    // const kitty = new User({email: 'hello@domain.com', fullName: "Test User"})
-    // kitty.save().then(() => console.log('User created'))
+app.post("/create", function(req:any, res:any) {
+    const postData = {
+        email: req.body.email,
+        fullName: req.body.fullName,
+        password: req.body.password
+    };
+    const user = new User(postData);
+    user.save().then((obj: any) => {
+        console.log('req')
+        res.json(obj)})
+        .catch((reason: any) => { 
+            console.log('res')
+        res.json(reason)})
 });
 
 

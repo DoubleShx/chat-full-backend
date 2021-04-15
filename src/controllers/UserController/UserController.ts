@@ -1,5 +1,5 @@
 import express from 'express'
-import { UserModel } from '../../schemas/User'
+import { UserModel } from '../../schemas'
 import { IUser } from '../../environment/Interfaces'
 
 class UserController {

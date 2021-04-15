@@ -2,14 +2,17 @@ import mongoose from 'mongoose'
 import express from 'express'
 import bodyParser from 'body-parser'
 
-import { UserModel } from './schemas/User'
 import { UserController } from './controllers/UserController'
+import { DialogController } from './controllers/DialogController'
+import { MessagesController } from './controllers/MessagesController'
 
 
 const app = express();
 app.use(bodyParser.json());
 
 const User = new UserController();
+const Dialog = new DialogController();
+const Messages = new MessagesController();
 
 mongoose.connect("mongodb://localhost:27017/chat", { 
     useNewUrlParser: true,
@@ -22,20 +25,14 @@ app.get('/user/:id', User.index);
 app.post('/user/registration', User.create);
 app.delete('/user/delete/:id', User.delete);
 
-// app.post("/create", function(req: express.Request, res: express.Response) {
-//     const postData = {
-//         email: req.body.email,
-//         fullName: req.body.fullName,
-//         password: req.body.password
-//     };
-//     const user = new UserModel(postData);
-//     user.save().then((obj: any) => {
-//         console.log('req')
-//         res.json(obj)})
-//         .catch((reason: any) => { 
-//             console.log('res')
-//         res.json(reason)})
-// });
+
+app.get('/dialogs/:id', Dialog.index)
+app.post('/dialogs', Dialog.create)
+app.delete('/dialogs/:id', Dialog.delete)
+
+
+app.get('/messages', Messages.index)
+app.post('/messages', Messages.create)
 
 
 app.listen(3000, function() {
